@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "warbler-banner", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+  flex: 1 1 40rem;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 5rem;
+  margin: 2px;
+}
+p {
+  margin: 2px;
+  font-family: "fiona", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: burlywood;
+  height: 30rem;
+}
+img {
+  margin: 30px;
+  flex: 0 1 auto;
+  height: 20rem;
+  width: auto;
+  border-radius: 40%;
+}
+.skills {
+  background-color: antiquewhite;
+  height: 30rem;
+}
