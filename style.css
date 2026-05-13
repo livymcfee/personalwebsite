@@ -4,6 +4,7 @@ body {
   font-family: "warbler-banner", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin: 0;
 }
 header {
   flex: 1 1 40rem;
@@ -44,4 +45,42 @@ img {
 .skills {
   background-color: antiquewhite;
   height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+section > h2 {
+  margin: 20px;
+}
+li {
+  list-style: none;
+}
+.contact {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  height: 10rem;
+}
+h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+.email {
+  font-size: 1.3rem;
+}
+footer {
+  background-color: antiquewhite;
+}
+footer > * {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
