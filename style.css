@@ -42,7 +42,12 @@ img {
   width: auto;
   border-radius: 40%;
 }
-.skills {
+section.experience {
+  background-color: burlywood;
+}
+.skills,
+.experience,
+.education {
   background-color: antiquewhite;
   height: 30rem;
   display: flex;
@@ -50,7 +55,7 @@ img {
   justify-content: flex-start;
   align-items: center;
 }
-section > h2 {
+. section > h2 {
   margin: 20px;
 }
 li {
